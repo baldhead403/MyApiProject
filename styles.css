@@ -1,0 +1,68 @@
+ body{
+    background-image: url(movie_curtains.jpeg);
+    background-size: 100%;
+ }
+ #container-fluid{
+   display: grid;
+   grid-template-rows: 3;   
+} 
+
+
+form{
+    background-image: url(movie.jpeg);
+    background-size: unset;
+    height: 210px;
+    width:100%;
+    margin-top: 40px;
+    align-content: center;
+    box-shadow: inset 2px 2px 50px black;
+}
+#titleSearch{
+    
+   /* margin-left: 500px; */
+   background-color: lightgray;
+   text-emphasis-color: outset 2px red;
+}
+
+#clickMe{
+ border-radius: 20px;
+ box-shadow: inset 2px 2px 5px lightslategrey;
+ background-color: lightskyblue;
+}
+#textArea{
+    border-radius: 20px;
+    margin-left: 25px;
+    height: 500px;
+    width: 100%;
+    color: white;
+    font-family: fantasy;
+    font-size: 20px;
+    /* box-shadow: inset 2px 2px 50px black; */
+    opacity: .75;
+    
+    
+}
+#displayImg{
+     height: 500px; 
+     /* margin-left: 2px; */
+     border-radius: 20px;
+     width: 100%; 
+     /* box-shadow: inset 2px 2px 50px black; */
+     opacity: .70;
+    
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+fieldset{
+    text-align: center;
+    font-size: 30px;
+    color: silver;
+    
+
+}
+
